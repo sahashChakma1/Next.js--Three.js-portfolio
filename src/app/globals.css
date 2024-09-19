@@ -2,32 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* Container for the Canvas */
+.canvas-container {
+  width: 50vw;  /* Default width for larger screens */
+  height: 100vh; /* Full viewport height */
+  max-width: none; /* Remove max-width constraint */
+  max-height: none; /* Remove max-height constraint */
+  margin: 0; /* Remove margin */
+  overflow: hidden; /* Hide overflow */
+  position: relative; /* Relative positioning for natural scrolling */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+/* Styling for the canvas element */
+canvas {
+  width: 100% !important; /* Adjusted to fit within container */
+  height: 100% !important; /* Adjusted to fit within container */
+  display: block;
+}
+
+/* Responsive adjustments for different screen sizes */
+@media (max-width: 1024px) {
+  .canvas-container {
+    width: 40vw; /* Adjust width for medium screens */
+    height: 50vh; /* Adjust height for medium screens */
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@media (max-width: 768px) {
+  .canvas-container {
+    width: 30vw; /* Adjust width for small screens */
+    height: 40vh; /* Adjust height for small screens */
+  }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@media (max-width: 480px) {
+  .canvas-container {
+    width: 25vw; /* Adjust width for extra small screens */
+    height: 30vh; /* Adjust height for extra small screens */
   }
 }
