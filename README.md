@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Description:
+This is a personal portfolio website built using Next.js for the frontend framework and Three.js for creating interactive 3D visuals. The website showcases my projects, skills, and experience as a developer, while utilizing advanced web technologies to create a smooth and engaging user experience.
 
-## Getting Started
+Features:
+Next.js: Server-side rendering (SSR) and static site generation (SSG) for fast and optimized performance.
+Three.js: 3D graphics for interactive and visually appealing elements.
+Responsive Design: Optimized for mobile, tablet, and desktop devices.
+SEO Optimized: Metadata and clean structure for improved search engine rankings.
+Project Showcase: Detailed portfolio of past projects with descriptions, images, and links to live demos.
+Blog/Articles Section: Optionally include a blog or articles section using Markdown or a CMS like Sanity.
+Technology Stack:
+Next.js: React-based framework for fast, server-side rendering.
+Three.js: JavaScript library for 3D rendering.
+CSS/SCSS: For styling the website.
+Framer Motion: For smooth animations and transitions.
+Vercel: Hosting and deployment for the Next.js application.
 
-First, run the development server:
+Live Demo:
 
-```bash
+
+
+  Setup & Installation:
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/your-username/your-portfolio-repo.git
+Install dependencies:
+bash
+Copy code
+npm install
+Run the development server:
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Build the project for production:
+bash
+Copy code
+npm run build
