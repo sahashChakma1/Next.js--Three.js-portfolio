@@ -29,9 +29,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
        <body className={pixelifySans.className}>
-        <Header fontClassName={pressStart2P.className} />
+        <Header fontClassName={pixelifySans.className} />
         <main>{children}</main>
-        <Footer fontClassName={pressStart2P.className} />
+        <Footer fontClassName={pixelifySans.className} />
       </body>
     </html>
   );
