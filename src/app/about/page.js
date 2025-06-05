@@ -30,8 +30,11 @@ export default function AboutPage() {
           {/* Text Block on the Right */}
           <div className="w-full md:w-1/2 space-y-6">
             <h2 className="text-3xl font-semibold text-white">My Background</h2>
-            <p className="text-lg text-slate-300 leading-loose tracking-wide">
-              I’ve spent the last few years growing in the tech and game development space. With a strong background in front-end development, I’ve built everything from responsive websites to full-scale game prototypes. I love working with tools like JavaScript, React, and Next.js, and applying design thinking to craft engaging user experiences.
+            <p className="text-lg text-slate-300 leading-relaxed tracking-wide">
+              Over the last few years, I've evolved from a frontend developer into a creative game designer. My background in React and Next.js helped me build polished, responsive web experiences — but my heart belongs to game engines, level scripting, and dynamic interactivity.
+            </p>
+            <p className="text-lg text-slate-400">
+              Whether I'm prototyping game mechanics or sketching UI flows, I strive to bring clarity, emotion, and engagement into every experience I build.
             </p>
           </div>
         </section>
