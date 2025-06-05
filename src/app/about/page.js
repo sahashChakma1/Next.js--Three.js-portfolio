@@ -62,7 +62,7 @@ export default function AboutPage() {
           </p>
           <div className="border rounded-lg overflow-hidden shadow-md border-gray-700">
             <iframe
-              src="/resume.pdf"
+              src="/Resume.pdf"
               title="My Resume"
               className="w-full h-[600px]"
               frameBorder="0"
