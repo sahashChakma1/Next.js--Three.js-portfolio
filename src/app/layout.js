@@ -28,9 +28,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-       <body className={pixelifySans.className}>
+      <body className={`${pixelifySans.className} flex flex-col min-h-screen bg-neutral-900`}>
         <Header fontClassName={pixelifySans.className} />
-        <main>{children}</main>
+        <main className="flex-grow">
+          {children}
+        </main>
         <Footer fontClassName={pixelifySans.className} />
       </body>
     </html>
