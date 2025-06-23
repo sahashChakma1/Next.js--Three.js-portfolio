@@ -17,10 +17,10 @@ export default function Footer({ fontClassName }) {
 
       {/* Social Icons */}
       <div className="flex space-x-6 mt-4 text-xl">
-        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <a href="https://github.com/sahashChakma1" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <FaGithub className="hover:text-white transition-transform duration-200 hover:scale-110" />
         </a>
-        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/in/sahash-chakma" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
           <FaLinkedin className="hover:text-white transition-transform duration-200 hover:scale-110" />
         </a>
         <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">

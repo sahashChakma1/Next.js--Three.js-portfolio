@@ -1,11 +1,11 @@
 export default function LevelDesignPage() {
   const levels = [
     {
-      title: 'Mystic Forest',
+      title: 'Prison-Style Puzzle Level – Unreal Engine Project ',
       description:
-        'An immersive forest level with hidden paths, puzzles, and ambient sounds to enhance exploration.',
-      image: '/images/mystic-forest.png',
-      link: '#',
+        'Created a basic prison-style puzzle level in Unreal Engine, focusing on level design fundamentals such as spatial layout, player flow, environmental storytelling, and traversal mechanics.The project is a beginner-level exercise aimed at understanding how lighting, modular design, and gameplay logic come together to shape the player experience. It was inspired by Batnobie X, whose breakdowns of level design flow sparked the idea for this prototype.',
+      image: '/images/level_design/prison/prison01.png',
+      link: 'https://www.youtube.com/watch?v=cisI1ftZxO0',
     },
     {
       title: 'Desert Ruins',

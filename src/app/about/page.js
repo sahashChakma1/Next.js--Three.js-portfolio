@@ -92,14 +92,14 @@ export default function AboutPage() {
           </p>
           <div className="mx-auto w-full max-w-4xl border border-gray-700 rounded-xl overflow-hidden shadow-xl">
             <iframe
-              src="/Resume.pdf"
+              src="/Sahash_Chakma.pdf"
               className="w-full h-[600px]"
               title="Resume"
               frameBorder="0"
             ></iframe>
           </div>
           <p className="text-sm text-slate-400">
-            Trouble viewing? <a href="/Resume.pdf" className="text-teal-300 hover:underline">Download it here</a>.
+            Trouble viewing? <a href="/Sahash_Chakma.pdf" className="text-teal-300 hover:underline">Download it here</a>.
           </p>
         </section>
       </main>
