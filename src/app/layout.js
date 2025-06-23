@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${roboto.className} flex flex-col min-h-screen bg-neutral-900`}>
-        <Header fontClassName={pixelifySans.className} />
+        <Header fontClassName={roboto.className} />
         <main className="flex-grow">
           {children}
         </main>
